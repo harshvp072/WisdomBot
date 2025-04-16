@@ -1,5 +1,6 @@
 package com.example.WisdomBot.service;
 
+import com.example.WisdomBot.dto.GeminiResponse;
 import com.example.WisdomBot.dto.ResearchRequest;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Value;
@@ -23,7 +24,6 @@ public class ResearchService {
         this.webClient = webClientBuilder.build();
         this.objectMapper = objectMapper;
     }
-
 
     public String processContent(ResearchRequest request) {
         // Build the prompt

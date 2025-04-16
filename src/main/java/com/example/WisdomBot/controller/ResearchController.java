@@ -1,5 +1,6 @@
 package com.example.WisdomBot.controller;
 
+import com.example.WisdomBot.dto.ResearchRequest;
 import com.example.WisdomBot.service.ResearchService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
